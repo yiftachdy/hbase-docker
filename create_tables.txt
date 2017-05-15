@@ -1,0 +1,14 @@
+create 'Utils', {NAME => 'D', VERSIONS => 1} 
+create 'ActivationLog', {NAME => 'D', VERSIONS => 1, TTL => 2592000}
+create 'CampaignActivationHistory', {NAME => 'D', VERSIONS => 1, TTL => 2592000}
+create 'Stage_CampaignActivationHistory', {NAME => 'D', VERSIONS => 1, TTL => 2592000}
+create 'TriggerUserContext', {NAME => 'D', VERSIONS => 1, TTL => 1728000}
+create 'Stage_TriggerUserContext', {NAME => 'D', VERSIONS => 1, TTL => 1728000}
+create 'UserCuids', {NAME => 'D', VERSIONS => 1, TTL => 172800}
+create 'Stage_UserCuids', {NAME => 'D', VERSIONS => 1, TTL => 172800}
+create 'TriggerMetadata', {NAME => 'D', VERSIONS => 1, TTL => 1728000}, {NAME => 'cemetery', VERSIONS => '1', TTL => '1728000'}
+create 'Stage_TriggerMetadata', {NAME => 'D', VERSIONS => 1, TTL => 1728000}, {NAME => 'cemetery', VERSIONS => '1', TTL => '1728000'}
+create 'CuidActivationHistory', {NAME => 'D', VERSIONS => 1, TTL => 15552000}
+create 'Stage_CuidActivationHistory', {NAME => 'D', VERSIONS => 1, TTL => 15552000}
+create 'TriggersTimeline', {NAME => 'D', VERSIONS => 1, TTL => 1728000}
+create 'Stage_TriggersTimeline', {NAME => 'D', VERSIONS => 1, TTL => 1728000}
